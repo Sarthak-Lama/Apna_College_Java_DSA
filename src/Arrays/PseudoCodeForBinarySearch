@@ -1,0 +1,7 @@
+start = 0, end = n-1
+while(start <= end)
+     find mid //(start + end )/2
+     compare mid and key
+         mid == key      FOUND
+         mid > key       LEFT (1st half of a sorted array) //Update end
+         mid <key        RIGHT (2nd half of a sorted array) //Update start
